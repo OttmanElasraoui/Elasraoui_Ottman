@@ -38,8 +38,19 @@ two = int(input("2"))
 def add():
     print(one, " + " , two, " = ", add())
 
-add(2)
-display(2)
+add()
+display()
+
+<<<<<<<<<<<<<<<__Receipt__>>>>>>>>>>>>>>>
 
 
+*   Cheese Sandwich .........   4.50
+*      French Fries .........   4.50
+*              Soda .........   4.50
 
+
+*         Subtotal: .........   9.01
+*              Tax: .........   0.63
+*            Total: .........   9.64
+_________________________________________
+* Thank you for your support * 
