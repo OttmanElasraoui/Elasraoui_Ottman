@@ -1,48 +1,24 @@
-class GetSs:
-   def __init__(self, chk):
-       self.check = chk
-       self.count = 0
+print("Hi, my name is RudeAI. I'd like to ask you a few questions.")
+Q1 = input( "What is your name?")
+print("Why would anyone name a baby that???")
+Q2 = input( "How old are you?")
+print("OOOOOOO your OLD!!!!")
+Q3 = input( "What do you do for fun?")
+print("I thought only nerd do that!!!!")
+Q4 = input( "What kind of music do you like?")
+print("WOW that music is garbage")
+Q5 = input( "How many siblings do you have?")
+print("WOW the rest of your family is better looking")
+Q6 = input( "What do you want to be when you grow up?")
+print("Thats never gonna happen bud")
+print("HAHA Just kidding")
+
+H = int(input("please enter height"))
+w = int(input("please enert weight"))
+print("your BMI is..." , w / H**2, "correct????")
 
 
-   def setCheck(self, chk):
-       self.check = chk
-       self.count = 0
-
-
-   def countSs(self):
-       for i in range(0, len(self.check)):
-           if self.check[i] == "s":
-               self.count += 1
-
-
-   def __str__(self):
-       self.countSs()
-       return "The String " + self.check + " contains " + str(self.count) + " ss."
-
-
- Runner
-
-
-
-
-from GetSs import*
-
-def main():
-   check = input("Please enter a String: ")
-   s = GetSs(check)
-   print(s)
-
-   check = input("Please enter another String: ")
-   s.setCheck(check)
-   print(s)
-
-
-main()
-
-Output:
-Please enter a String: 
-sands
-The String sands contains 2 ss.
-Please enter another String: 
-sisters
-The String sisters contains 3 ss.
+print("YO whats i have a Q")
+A = int(input("whats 9+10="))
+print("nice man your a math WIZ XD")
+      

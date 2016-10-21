@@ -9,6 +9,12 @@ recArea = l * w
 print("the area of your rectangle is", recArea)
 
 
-  
-
+print("     _______________________________________   ")
+print("    |                                       |  ")
+print("    | Ottman Elasraoui                      |  ")
+print("    | 2385 Falkirk Row                      |  ")
+print("    | La Jolla, CA 92037                    |  ")
+print("    | Address Line 1                        |  ")
+print("    |                                       |  ")
+print("    |_______________________________________|  ")                                      
 
