@@ -4,9 +4,9 @@ word2 = "handsome"
 same = word1 == word2
 print(same)
 
-#if word1 == word2:
-   # print("They are the same!")
+if word1 == word2:
+   print("They are the same!")
 
-#if word1 != word2:
-   # print("mismatch!")
+if word1 != word2:
+   print("mismatch!")
     
