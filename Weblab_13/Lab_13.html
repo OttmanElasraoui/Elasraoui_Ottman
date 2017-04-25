@@ -2,6 +2,24 @@
 <head>
 </head>
 <body>
-    <script type = "text/javascript"></script>
+    
+<form>
+	Height: <input type = "text" size = 10 maxLength = 10 id = "height" placeholder = "Enter Height"/>
+	<br/>
+	<br/>
+	Weight: <input type = "text" size = 10 maxLength = 10 id = "weight" placeholder = "Enter Weight"/>
+	<br/>
+	<br/>
+	<input type = "button" value = "Calculate" onclick = "calcBMI()"/>
+</form>	
+	
+<script type = "text/javascript">
+	function calcBMI() {
+		var h = document.getElementById("height").value;
+		var w = document.getElementById("weight").value;
+		document.write("Your BMI is... " + (w*703)/(h*h));
+	}
+</script>
+
 </body>
 </html>
